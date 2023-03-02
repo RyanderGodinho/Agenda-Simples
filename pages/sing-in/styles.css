@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  min-height: 100vh;
+  max-height: 100vh;
+}
+div{
+  width: 50%;
+}
+h1{
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
+a{
+  color:rgb(58, 188, 231);
+}
+.container-picture{
+  height: 100vh;
+
+  background-image: url('../../assets/Imagem\ Esquerda.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  max-width: 90%;
+}
+form button{
+  width: 29.75rem;
+  height: 3.18rem;
+  margin-top: 3.5rem;
+  margin-bottom: 6rem;
+  
+  border: none;
+  background: #04C45C;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.7rem;
+}
+#redirect-link{
+  align-self: center;
+}
+.wrong{
+  border: 1px solid red;
+}

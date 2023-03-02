@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/global.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="../../js/main.js" defer></script>
+  <title>MAIN</title>
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="../../assets/KONTACTS.svg" alt="logo">
+    <button id="sing-out"><img src="../../assets/Vector.svg" alt="sing-out"></button>
+  </header>
+  
+  <main>
+    <div id="container-main">
+      <button id="btn-add">Adicionar</button>
+
+      <div id="min-header">
+        <strong class="min-header">Nome</strong>
+        <strong class="min-header">Email</strong>
+        <strong class="min-header">Telefone</strong>
+      </div>
+
+      <div class="date">
+        <span>Claudia M. Souza</span>
+        <span>claudia@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+
+      <div class="date">
+        <span>João Santos</span>
+        <span>joao@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+
+      <div class="date">
+        <span>Pedro Henrique</span>
+        <span>pedro.henrique@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+
+      <div class="date">
+        <span>Marina Tavares</span>
+        <span>marina_tavares@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+
+      <div class="date">
+        <span>Daniel lopes</span>
+        <span>daniel.lopes@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+
+      <div class="date">
+        <span>Guido Cerqueira</span>
+        <span>guido.cerqueira@teste.com.br</span>
+        <span>(99)9999-9999</span>
+        <button class="trash"><img src="../../assets/Icon-Trash.svg" alt=""></button>
+      </div>
+  </main>
+
+  <div id="fade-add" class="fade">
+    <div id="modal-add" class="modal">
+      <button id="close1" class="close-modal"><img src="../../assets/x.svg" alt=""></button>
+      <form id="form-modal-add">
+        <h2>Novo Contato</h2>
+        <input type="text" placeholder="Nome" name="name" id="input-name" required>
+        <input type="email" placeholder="E-mail" name="email" id="input-email" required>
+        <input type="number" placeholder="Telefone" name="number" id="input-number" required>
+        <button id="btn-ad" class="btn-ex">ADICIONAR</button>
+        <button id="btn-clear" class="btn-red">LIMPAR</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="fade-delete" class="fade">
+    <div id="delete" class="modal">
+      <button id="close2" class="close-modal"><img src="../../assets/x.svg" alt=""></button>
+      <h1>Confirma a exclusão?</h1>
+      <span>Deseja excluir o contato?</span>
+      <button id="btn-delete" class="btn-ex">EXCLUIR</button>
+      <button id="btn-cancel" class="btn-red">CANCELAR</button>
+    </div>
+  </div>
+
+</body>
+</html>

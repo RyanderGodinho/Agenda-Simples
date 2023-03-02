@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  min-height: 100vh;
+  max-height: 100vh;
+}
+div{
+  width: 50%;
+}
+h1{
+  align-self: center;
+  margin-bottom: 1.5rem;
+}
+#picture{
+  height: 100vh;
+
+  background-image: url('../../assets/Imagem\ Direita.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#input-password{
+  margin-bottom: 4rem;
+}
+form button{
+  width: 29.75rem;
+  height: 3.18rem;
+  margin-bottom: .5rem;
+
+  border-radius: 0.7rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+a{
+  color:rgb(58, 188, 231);
+}
+#redirect-link{
+  align-self: center;
+  margin-top: 1.5rem;
+}
+#btn-accept{
+  background: #04C45C;
+  opacity: 0.8;
+}
+#btn-accept:hover{
+  opacity: 0.9;
+}
+#btn-decline{
+  background: #FB0615;
+  opacity: 0.8;
+}
+#btn-decline:hover{
+  opacity: 0.9;
+}
+
+

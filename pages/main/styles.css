@@ -1,0 +1,176 @@
+#sing-out{
+  position: absolute;
+  margin-left: 95%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+#sing-out:hover{
+  opacity: 1;
+}
+#container-main{
+  width: 56rem;
+  max-width: 75%;
+  min-height: 65vh;
+}
+#btn-add{
+  width: 16rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+
+  font-size: 1.1rem;
+  border: none;
+  border-radius: .5rem;
+  color: #fff;
+  background: #04C45C;
+  cursor: pointer;
+  opacity: 0.8;
+}
+#btn-add:hover{
+  opacity: 0.9;
+}
+#min-header{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  width: auto;
+  height: 2.8rem;
+  margin-bottom: 3%;
+
+  background: #F4F0F0;
+}
+#min-header strong{
+  margin-right: 24.4%;
+  margin-left: 3.3%;
+  font-size: 0.8rem;
+}
+.date{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 2.8rem;
+  margin-bottom: 1%;
+
+  background: #FFFAFA;
+}
+.date span{
+  width: 20%;
+  margin-left: 3%;
+  font-size: 0.8rem;
+}
+.date button{
+  border: none;
+  background: none;
+  margin-right: 3%;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.date button:hover{
+  opacity: 1;
+}
+#fade-add{
+  display: none;
+}
+#fade-delete{
+  display: none;
+}
+.fade{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+
+  background: rgba(0,0,0,0.6);
+}
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  max-width: 90%;
+  padding: 1.5rem;
+
+  background: #fafafa;
+  border-radius: 0.7rem;
+}
+.modal span{
+  margin-top: 1.5rem;
+}
+.close-modal{
+  position: absolute;
+  top: 6%;
+  left: 92%;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+  opacity: .8;
+}
+.close-modal:hover{
+  opacity: 1;
+}
+#form-modal-add{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#delete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  min-width: 40%;
+  padding: 2rem;
+}
+#form-modal-add h2{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.7rem;
+}
+#form-modal-add input{
+  max-width: 90%;
+}
+.btn-ex{
+  min-width: 90%;
+  max-width: 90%;
+  height: 3.3rem;
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+  border: none;
+  background: #04C45C;
+  color: #fff;
+  border-radius: .5rem;
+  opacity: .9;
+  cursor: pointer;
+}
+.btn-ex:hover{
+  opacity: 1;
+}
+.btn-red{
+  min-width: 90%;
+  max-width: 90%;
+  height: 3.3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+  border: none;
+  background: #FB0615;
+  color: #fff;
+  border-radius: .5rem;
+  opacity: .7;
+  cursor: pointer;
+}
+.btn-red:hover{
+  opacity: .8;
+}
